@@ -1,6 +1,10 @@
 # Short-form quality gates
 
-Apply these to the encoded final, not only the source composition.
+Apply these to the encoded final, not only the source composition. Apply speech,
+product, material and CTA gates only when relevant to the selected content mode.
+For nonverbal footage use visual action anchors; mark ASR/word timing inapplicable.
+A metaphor or graphic callback is not required when the real performance supplies
+the payoff.
 
 | Gate | Required evidence | Fail examples |
 |---|---|---|
@@ -31,12 +35,13 @@ Apply these to the encoded final, not only the source composition.
 | Minimal dimensional craft (when requested) | Readable focal object, thickness, perspective, restrained type, light and contact shadows; sequence variety | Tiny object on an empty slide, harsh strokes, repeated flat cards, decorative motion |
 | Audio revision | Measured bed reduction relative to reviewed version; varied purposeful SFX with inspected contact times | Master merely quieter, bed still masks voice, more music substituted for SFX |
 | Sound | Actual listening when supported, plus stem and mix measurements | Voice buried, repeated loud whoosh, onset unaligned, clipping |
+| Ending | Last action/thought resolved, closing text readable, deliberate hold/fade/loop, music release, contiguous final frames | Mid-movement cutoff, clipped last word, abruptly truncated score, empty padding |
 | Delivery | Every requested ratio (default 1080x1920; 1920x1080 when requested), independently framed and reviewed, correct duration, fast-start MP4, final hash | Wrong aspect ratio, missing final syllable, stale export |
 
 The artistic test: each shot advances the story or changes the emotional emphasis.
 Remove an effect that only demonstrates the renderer. Most graphics should show
 an object doing something: a spec filling, a test resolving, a workspace assembling.
-At least one metaphor returns with a changed meaning or completed state.
+When a metaphor is used, return to it only if its changed meaning or completed state helps the story.
 
 Calibrate new validators with negative controls. A caption shifted by 0.3 seconds,
 a one-frame scene gap, and an omitted spoken word should fail the relevant checks.

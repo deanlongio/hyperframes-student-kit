@@ -5,6 +5,10 @@ description: Select, customize, or extend the project's reusable motion-graphics
 
 # Reuse the style library
 
+Read the selected brand profile through `brands/README.md` first. Library palettes
+and AIS-labelled sample colours are example treatments, not brand defaults. Adapt
+chosen cards to the project DESIGN.md without importing legacy logos or footage.
+
 Read `style-library/GUIDE.md`, then `style-library/registry.json`. Filter by
 style, tier, and purpose before opening individual cards. Read the selected
 style's `DESIGN.md`, `tokens.css`, and manifest slot limits.

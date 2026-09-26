@@ -1,6 +1,6 @@
 # Reels and YouTube Shorts
 
-Use `short-form-edit` for a raw talking-head recording, reel, YouTube Short, or
+Use `short-form-edit` for speech, nonverbal or hybrid reels, YouTube Shorts, or
 short advertisement. It defaults to 1080x1920. Request a separately composed
 1920x1080 version when needed; a center crop is not a second composition.
 
@@ -13,21 +13,23 @@ The starter is landscape; the skill must set the reel's composition dimensions,
 layout, and metadata to 1080x1920 before authoring. Keep all source footage and
 outputs inside the new project.
 
-1. Transcribe with ElevenLabs Scribe, your chosen alternative, or reuse verified word timestamps.
-2. Review mistakes in context and establish one frame-aligned edit decision list.
-3. Explore three opening directions and choose a truthful promise and payoff.
-4. Plan scenes, exact captions, moving footage, and sound cues against retained words.
-5. Build the composition with the HyperFrames and GSAP skills. Use a footage ledger
-   to record provenance and prevent unintentional reuse of the same source scene.
-6. Validate, preview, render a draft, inspect frames, and listen to the full edit.
-7. Resolve timing, audio, and composition problems before exporting the final video.
+1. Select the owner and brand from [the brand library](../brands/README.md).
+   Record that profile and campaign-specific overrides in the project DESIGN.md.
+2. Inspect the source and choose speech, nonverbal or hybrid editing. For retained
+   speech, follow `agent.md` and its OpenVox-first procedure; reuse valid transcripts.
+   For silent footage, use visual action anchors and skip voice services.
+3. Establish a truthful opening, complete action/argument and deliberate ending.
+   Nonverbal reels need a concise intro and closing overlay or end frame.
+4. Build purposeful cuts, captions where relevant, brand-aware overlays and sound.
+   Keep the performer/product and outcome visible. Do not inherit AIS branding.
+5. Validate, preview, render a draft and inspect the encoded video. Review the final
+   2–3 seconds separately: action, text reading time, final frame and music release.
+6. Resolve problems, export a new final version and record verification evidence.
+   Listen when an audio-capable review surface is available; disclose any limit.
 
-Nate uses ElevenLabs Scribe for transcription and Kie.ai for generated video and
-image assets. Students need their own keys and credits for those services. Whisper
-is a transcription alternative, and existing footage can replace generated assets.
-See [tools, accounts, and API keys](TOOLS-AND-API-KEYS.md) for setup and copyable
-prompts. Honor existing authorization when proposing paid assets. The synthetic
-validation example needs no paid service.
+See [tools and provider setup](TOOLS-AND-API-KEYS.md). New private footage stays in
+its own project. The reusable card library does not need legacy production videos;
+see [the resource audit](RESOURCE-AUDIT.md) for retention recommendations.
 
 ## Validate from the repository root
 

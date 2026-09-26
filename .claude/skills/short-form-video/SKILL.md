@@ -308,10 +308,13 @@ For scenes 3–5 of a 15–20s short (the "middle grind" where attention drops t
 
 **Rule:** pure typography-plus-icon scenes feel like slides. Data-feel scenes feel like evidence. When a middle scene feels bland, replace the decoration with something that reads as *information*: a small number ticking up, a bar filling, a chart stroking in, a grid flashing in sequence.
 
-## Reference compositions
+## Optional historical compositions
 
-- `video-projects/may-shorts-19/` — the canonical short-form example (18.84s, 1080x1920, 7 scenes, face-mode choreography, karaoke captions with shift(), ambient bg + seam treatment). Read `index.html` and any `compositions/scene*.html` before authoring a new short.
-- `video-projects/may-shorts-18/` — secondary reference with the 4 lessons above baked in: BOTTOM scale=0.75, KILLED stamp timed after CHATGPT reveal, scene-1→2 fluid fade, scene 4 data-dashboard "THE PATTERN" grid.
+The May Shorts 18/19 examples illustrate the legacy face-mode and karaoke patterns
+above. If they are present in a teaching checkout, inspect their source when
+maintaining those examples. They may be absent in Dean's local production workspace;
+do not require or recreate them. New reels use `short-form-edit`, `style-library/`
+and `style-templates/` with the selected brand profile and the user's own footage.
 
 ## Related skills (invoke in addition)
 

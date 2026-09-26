@@ -1,3 +1,5 @@
+> Historical teaching-project record. The referenced legacy projects were removed; these paths are not current dependencies. Use the maintained skills and libraries for new projects.
+
 # Spec — Linear.app 30s Promo (Infinite-style)
 
 **Date:** 2026-04-17

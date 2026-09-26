@@ -1,5 +1,9 @@
 # Tools, accounts, and API keys
 
+**Dean’s workspace preference:** OpenVox first for all voice work; ask Dean to
+manually enable its server. ElevenLabs is backup only. Read [agent.md](../agent.md)
+for the complete procedure. Provider defaults below describe the original kit.
+
 Nate uses **ElevenLabs Scribe for transcription** and **Kie.ai for generated video
 and image assets**. These are his preferred services, not requirements for every
 edit. Bring your own accounts and credits, and configure only what you use.

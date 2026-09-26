@@ -110,8 +110,8 @@ review the actual motion and audio before publishing.
 ## Existing examples and migration
 
 This is the main student-kit repository. The newer video-pipeline kit has been
-merged here with both Git histories preserved. The original 12 projects remain
-in `video-projects/`, alongside the original shared brand examples and the
+merged here with both Git histories preserved. The original 12 teaching projects have been removed from both Dean's checkouts.
+The reusable kit retains the
 `make-a-video`, `short-form-video`, and `website-to-hyperframes` skills.
 Use `short-form-edit` for new reels; `short-form-video` documents the older May
 Shorts compositions. [Migration and compatibility notes](docs/MIGRATION.md).
@@ -138,3 +138,9 @@ private recordings, transcripts, credentials, or private workspace settings were
 imported. Previously public examples remain in the repository. New folders
 under `video-projects/` and `raw-media/` are ignored automatically; files already
 tracked by Git remain tracked. Create a new project for your own footage.
+
+## Dean's brand profiles
+
+See the [brand library](brands/README.md) for DEANLONG.io, personal Krav Maga and
+per-client profiles. Use `short-form-edit` for speech, nonverbal and hybrid reels.
+Legacy productions are optional and have been removed from both checkouts.

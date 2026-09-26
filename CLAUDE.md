@@ -3,6 +3,14 @@
 Turn a talking-head recording into an intentional edit using local HyperFrames
 rendering, transcript-driven cuts, and reusable motion graphics.
 
+## Dean's local preferences
+
+Before voice-related work, read [agent.md](agent.md) for provider order, the
+OpenVox API procedure, credentials navigation, and repository boundaries.
+Ask Dean to manually enable OpenVox; try it first for all voice work, including
+transcription. Use ElevenLabs only when OpenVox cannot handle the requested task.
+These user preferences override inherited provider defaults in this kit.
+
 ## Runtime routing
 
 `AGENTS.md` and `CLAUDE.md` contain the same standing guide. Keep them synchronized.
@@ -40,6 +48,15 @@ The philosophy's fast sizzle pacing is a style reference. Give educational speec
 room to breathe. The project brief controls pacing, palette, and typography.
 Framework skill contracts override historical code recipes in the style guide.
 
+## Brand and content routing
+
+Read `brands/README.md` and the selected brand profile before creative work.
+Use agency, personal Krav Maga, or a separate client identity; choose speech,
+nonverbal, or hybrid editing from the actual content. Saved brand rules override
+library/example palettes; the current brief overrides saved rules. Record the
+brand source and project overrides in DESIGN.md. AIS and other legacy productions
+are optional teaching references, not Dean's branding or required skill assets.
+
 ## Workspace
 
 Create a project with `npm run new-video -- my-video`. Keep source media, EDLs,
@@ -51,16 +68,16 @@ See `style-templates/README.md` for whole-scene templates.
 
 Preserve raw files. Use a new output filename for each editing stage. Archive
 obsolete work. Video projects, personal footage, transcripts, credentials, and
-renders are gitignored. The 12 already-published projects are retained as teaching examples; new private
-projects stay ignored. Do not treat existing public examples as permission to add
+renders are gitignored. The 12 legacy teaching projects were removed from both checkouts at Dean's
+request. Reusable skills do not require them; new private projects stay ignored. Do not treat existing public examples as permission to add
 new personal footage. Never print secrets or copy private media into library examples.
 
 ## Editing and timing
 
 Before choosing a transcription, asset-generation, or voiceover service, read
 `docs/TOOLS-AND-API-KEYS.md` and check the user's provider choice and local setup.
-ElevenLabs Scribe is Nate's default; honor requests for OpenAI Whisper, local
-Whisper, or another provider. Normalize verified word timestamps for the cutting
+Dean's default is OpenVox first, with ElevenLabs only as backup; follow
+`agent.md` for the manual server-enable step and capability discovery. Normalize verified word timestamps for the cutting
 tools. The included transcription script is ElevenLabs-only. Kie.ai is optional
 and needs a configured integration and credits. Reuse existing transcripts and
 assets; make any unapproved uploads or paid calls concrete before asking.
@@ -100,3 +117,10 @@ disabled; synthetic input must remain inside the virtual browser.
 
 For short-form edits, read `docs/SHORT-FORM.md` and use the plan and footage
 validators. Structural checks supplement rendered video and audio review.
+
+## Authoritative skill source
+
+This main GitHub checkout is Dean's source of truth for reusable skills. Edit
+`.claude/skills/`, generate `.agents/skills/`, and keep the separate production
+workspace synchronized. Do not import private production media or its local
+example-folder deletions. Do not commit or push without an explicit request.

@@ -14,8 +14,9 @@ preserving both published histories and the original repository's stars and URL.
 
 ## What remains
 
-All 12 existing `video-projects/` examples and root `assets/` were retained without
-modification. The original three additional skills remain available. New reels
+The original migration retained 12 example projects and root assets. Dean later
+removed the 12 legacy project folders from both checkouts. They are optional
+examples, not skill dependencies. The original three additional skills remain available. New reels
 route to `short-form-edit`; `short-form-video` is the legacy May Shorts reference.
 
 The package retains CommonJS behavior for older `.js` helpers; new tools use

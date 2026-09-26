@@ -1,3 +1,5 @@
+> Historical teaching-project record. The referenced legacy projects were removed; these paths are not current dependencies. Use the maintained skills and libraries for new projects.
+
 # Linear.app 30s Promo Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.

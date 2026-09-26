@@ -1,0 +1,77 @@
+{
+  "scope": "12 user-authorized legacy project folders only; no staged edits; cloud working files not read for content comparison",
+  "projects": [
+    {
+      "name": "aisoc-app-release",
+      "files": 21,
+      "logicalBytes": 25553501,
+      "allocatedBytes": 25600000
+    },
+    {
+      "name": "aisoc-hype",
+      "files": 15,
+      "logicalBytes": 23575976,
+      "allocatedBytes": 23609344
+    },
+    {
+      "name": "aisoc-lesson-5-1",
+      "files": 20,
+      "logicalBytes": 61022100,
+      "allocatedBytes": 61063168
+    },
+    {
+      "name": "claude-edit-intro",
+      "files": 18,
+      "logicalBytes": 26682011,
+      "allocatedBytes": 26722304
+    },
+    {
+      "name": "clickup-demo",
+      "files": 33,
+      "logicalBytes": 37100106,
+      "allocatedBytes": 37167104
+    },
+    {
+      "name": "first-agent-promo",
+      "files": 31,
+      "logicalBytes": 7400770,
+      "allocatedBytes": 7458816
+    },
+    {
+      "name": "golden-ratio-demo",
+      "files": 18,
+      "logicalBytes": 29195206,
+      "allocatedBytes": 8175616
+    },
+    {
+      "name": "hyperframes-sizzle",
+      "files": 76,
+      "logicalBytes": 19599898,
+      "allocatedBytes": 258048
+    },
+    {
+      "name": "linear-promo-30s",
+      "files": 35,
+      "logicalBytes": 4925327,
+      "allocatedBytes": 61440
+    },
+    {
+      "name": "may-shorts-18",
+      "files": 19,
+      "logicalBytes": 18136371,
+      "allocatedBytes": 7794688
+    },
+    {
+      "name": "may-shorts-19",
+      "files": 27,
+      "logicalBytes": 28533271,
+      "allocatedBytes": 12423168
+    },
+    {
+      "name": "may-shorts-6",
+      "files": 21,
+      "logicalBytes": 17855634,
+      "allocatedBytes": 77824
+    }
+  ]
+}

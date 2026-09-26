@@ -4,7 +4,14 @@
     {
       "name": "hyperframes-studio",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["hyperframes", "preview", "video-projects/claude-edit-intro", "--port", "3010", "--force-new"],
+      "runtimeArgs": [
+        "hyperframes",
+        "preview",
+        "examples/starter",
+        "--port",
+        "3010",
+        "--force-new"
+      ],
       "port": 3010
     }
   ]

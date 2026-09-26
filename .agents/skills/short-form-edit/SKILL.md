@@ -1,6 +1,6 @@
 ---
 name: short-form-edit
-description: Turn talking-head footage into a finished reel, YouTube Short, or short advertisement with curiosity-led openings, earned payoffs, story-driven cuts, transcript-synced motion graphics, moving B-roll, captions, subtle music, and synchronized sound effects. Use for short-form editing; use edit-video for long-form videos and cut-silences for pause removal alone.
+description: Turn talking-head or nonverbal footage into a finished reel, YouTube Short, or short advertisement with purposeful openings, story-driven cuts, brand styling, and sound. Use for short-form editing; use edit-video for long-form videos and cut-silences for pause removal alone.
 ---
 
 # Short form edit
@@ -22,12 +22,66 @@ this test. Treat the answer as editorial judgment until audience data exists.
 
 ## Establish the edit
 
+For this workspace, first read `brands/README.md` and the selected `BRAND.md`.
+Route the owner to agency (`brands/deanlong-io/`), personal Krav Maga
+(`brands/krav-maga/`), or `brands/clients/<client-slug>/`. Category selects identity;
+retained content selects speech, nonverbal, or hybrid editing. Do not assume all
+client videos have speech or all Krav Maga videos are silent. Read
+[brand and content routing](references/brand-and-content.md) for these modes.
+Record the brand source/date and current overrides in the project DESIGN.md;
+copy used brand assets locally. Current instructions override saved brand rules;
+saved rules override starter/library styling. AIS examples are optional technique
+references, never the default identity or required source media.
+
+Before choosing the visual direction, ask whether the user wants a brand style
+applied: "Is there a brand style you want for this reel—colours, fonts, logo, or
+a reference?" Reuse a style already specified for this task rather than asking
+again. Source inspection can continue while awaiting the answer; settle the style
+before polished graphics. If the user explicitly delegates the choice or cannot
+answer during an autonomous run, document the assumed direction.
+
+### Reels without speech or voiceover
+
+For nonverbal Instagram footage, use a brief one-line intro to establish the
+subject and an intentional ending: either a dedicated end frame or a short text
+overlay on the closing source footage. Choose wording and placement from the
+brief and agreed brand style; keep the action visible and let the final movement
+resolve. Do not force a CTA when none is requested.
+
+Keep text sparse between these bookends. Do not force talking-head captions,
+transcript-driven graphics, or invented narration onto a visual performance.
+Overlay frames, cards, or text on moving footage when they add useful context or
+an intentional ending; speech is not a prerequisite for graphics. Keep the
+performer and the outcome visible, and avoid decorative overlays without a role.
+Use visible actions as timing anchors and explicitly mark speech-specific checks
+inapplicable when no speech is retained. This branch overrides the speech and
+transcription steps below; the framing, sound, render, and visual-review gates
+still apply. Verify both the intro and ending in the encoded reel at phone size.
+For physical performance, retain preparation, contact and recovery, with the full
+performer and target visible. Strong movement is the evidence; avoid effects that
+make it look artificial. Use verified formal terminology or accurate descriptive
+wording; do not present staged training as a real attack.
+
+### Finish every content mode deliberately
+
+Treat the final 2–3 seconds as a separate review gate. The last action or spoken
+thought must resolve, closing copy must have reading time, and music must release
+rather than truncate. Choose continued recovery, a deliberate end-frame hold,
+a fade, or a clean loop based on the footage and brief. A roughly 1–2 second hold
+and 0.5–1 second fade can help, but are not fixed requirements. Distinguish an
+intentional closing still from a playback freeze or another moving-footage scene.
+When changing the ending, update the composition duration, audio tail, plan and
+EDL, then inspect contiguous encoded frames at the join and final frame. Do not
+fix a cutoff by merely adding black padding.
+
+### Inspect and prepare the source
+
 1. Read the scoped workspace guide, `MOTION_PHILOSOPHY.md`, and the HyperFrames
    and video-storytelling skills before composition work. Use the user's brief
    over aesthetic defaults. Keep all artifacts in `video-projects/<slug>/`.
 2. Probe the supplied source and reference: duration, dimensions, frame rate,
    audio, and existing transcript identity. Preserve originals. Transcribe with
-   the student's chosen provider; ElevenLabs Scribe is Nate's default. Read
+   the user's chosen provider. Follow `agent.md` for Dean's OpenVox-first routing. Read
    `docs/TOOLS-AND-API-KEYS.md` for Whisper alternatives, word-timestamp
    normalization, credentials, and service costs. Never substitute an older take.
 3. When a reference is supplied, inspect the entire reel using contact sheets,
