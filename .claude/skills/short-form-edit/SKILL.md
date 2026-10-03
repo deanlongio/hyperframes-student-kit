@@ -1,11 +1,11 @@
 ---
 name: short-form-edit
-description: Turn talking-head or nonverbal footage into a finished reel, YouTube Short, or short advertisement with purposeful openings, story-driven cuts, brand styling, and sound. Use for short-form editing; use edit-video for long-form videos and cut-silences for pause removal alone.
+description: Turn talking-head footage, nonverbal footage, or photos into a finished reel, YouTube Short, or short advertisement, including stop-motion and seamless loops. Use for short-form editing; use edit-video for long-form videos and cut-silences for pause removal alone.
 ---
 
 # Short form edit
 
-Input: a source-video path and an optional reference-reel path.
+Input: source-video or photo paths and an optional reference-reel path.
 
 Deliver the requested formats and the editable project. Default to 1080x1920;
 when requested, also compose 1920x1080 with its own framing and text placement.
@@ -42,7 +42,12 @@ answer during an autonomous run, document the assumed direction.
 
 ### Reels without speech or voiceover
 
-For nonverbal Instagram footage, use a brief one-line intro to establish the
+For photo stop-motion, visual memes, or seamless loops, read
+[photo and loop editing](references/photo-stop-motion-loops.md). That branch
+replaces mandatory text bookends and speech-led opening exercises: the gesture
+can establish the subject, and the replay seam can serve as the ending.
+
+For other nonverbal Instagram footage, use a brief one-line intro to establish the
 subject and an intentional ending: either a dedicated end frame or a short text
 overlay on the closing source footage. Choose wording and placement from the
 brief and agreed brand style; keep the action visible and let the final movement
@@ -266,7 +271,9 @@ generated illustration, designed graphics, and speaker-only time; explain the
 denominator and count split panels once. Captions over footage remain footage.
 A still image with a camera move is a photographic layer, not moving B-roll.
 
-Use each distinct B-roll scene only once per reel. Another crop, filename, speed,
+Use each distinct B-roll scene only once per reel, except when deliberate repetition
+is the requested loop or stop-motion mechanism; record that purpose in the plan.
+Another crop, filename, speed,
 reverse, or grade does not make it a new scene. Reusing the same selected scene
 across the two requested aspect ratios is expected. Record source scene identity,
 file hash, and selected interval in `assets/footage-ledger.json`; run the footage
